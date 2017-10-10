@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.revtwo.revtwolib"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true" >
+        <activity android:name="com.revtwo.revtwolib.MyTicketActivity" />
+        <activity android:name="com.revtwo.revtwolib.CommunityActivity" />
+        <activity
+            android:name="com.revtwo.revtwolib.ChatActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name="com.revtwo.revtwolib.KBActivity" />
+        <activity
+            android:name="com.revtwo.revtwolib.KBAnswersActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.revtwo.revtwolib.AskQuestionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+
+        <service
+            android:name="com.revtwo.revtwolibcore.CallReceiverService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver android:name="com.revtwo.revtwolibcore.NetworkChangeReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.revtwo.revtwolibcore.IncomingCallActivity"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.revtwo.revtwolibcore.bottommenu.BottomMenuActivity"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:taskAffinity=""
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.Fullscreen.Transparent" />
+        <activity
+            android:name="com.revtwo.revtwolibcore.IssueResolvedActivity"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:taskAffinity=""
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name="com.revtwo.revtwolibcore.RatingActivity"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:taskAffinity=""
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name="com.revtwo.revtwolibcore.StartCallActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="com.revtwo.revtwolibcore.ScreenShareActivity"
+            android:configChanges="orientation|screenSize" />
+    </application>
+
+</manifest>
