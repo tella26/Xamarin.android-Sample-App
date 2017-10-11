@@ -14,7 +14,7 @@ using XamarinSampleApp;
 
 namespace SampleApp
 {
-    [Activity(Label = "DemoList")]
+    [Activity(Label = "RevTwo")]
     public class DemoList : ListActivity
     {
         static readonly string[] menuItems = new String[] { "Logging", "File browsing", "SQLite Database", "My ticket view", "Community view", "FAQ" };
