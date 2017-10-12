@@ -27,6 +27,6 @@ namespace XamarinSampleApp
             }, (ex) => {/*error*/});
         }
 
-}
+    }
 }
 

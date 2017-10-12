@@ -11,7 +11,7 @@ namespace XamarinSampleApp
         protected override void OnNotificationReceived(Context context, string ticketId, string message, int unreadMessages, bool inForeground)
         {
             NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(context)
-                .SetContentTitle("New message 4")
+                .SetContentTitle("New message")
                 .SetContentText(message)
                 .SetSmallIcon(Resource.Drawable.Icon)
                 //.SetLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.mipmap.ic_launcher_revtwo))
@@ -19,7 +19,7 @@ namespace XamarinSampleApp
                 .SetDefaults(NotificationCompat.DefaultSound)
                 .SetPriority(2);
 
-            //Intent intent = context.getPackageManager().getLaunchIntentForPackage(context.getPackageName());
+            //Intent intent = context.PackageManager.GetLaunchIntentForPackage(context.PackageName);
 
             Intent intent = new Intent(context, typeof(MainActivity));
             intent.SetAction(Intent.ActionMain);

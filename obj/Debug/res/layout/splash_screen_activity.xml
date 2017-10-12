@@ -1,1 +1,0 @@
-<ImageView android:background="#0099CC" android:padding="20dp" android:src="@drawable/logo_white" android:layout_width="match_parent" android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android" />
