@@ -35,17 +35,17 @@ namespace SampleApp
 
             Button debugBtn = FindViewById<Button>(Resource.Id.btnDebugLog1);
             debugBtn.Click += delegate {
-                RevTwoXamarin.RevTwo.Trace("Debug Log Message", this);
+                RevTwoXamarin.RevTwo.Debug("Debug Log Message", this);
             };
 
             Button warningBtn = FindViewById<Button>(Resource.Id.btnWarningLog1);
             warningBtn.Click += delegate {
-                RevTwoXamarin.RevTwo.Trace("Warning Log Message", this);
+                RevTwoXamarin.RevTwo.Warn("Warning Log Message", this);
             };
 
             Button ErorBtn = FindViewById<Button>(Resource.Id.btnErrorLog1);
             ErorBtn.Click += delegate {
-                RevTwoXamarin.RevTwo.Trace("Error Log Message", this);
+                RevTwoXamarin.RevTwo.Error("Error Log Message", this);
             };
 
             back_text.SetText(Resource.String.tutorials);
