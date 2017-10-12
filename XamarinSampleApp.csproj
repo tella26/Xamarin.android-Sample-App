@@ -52,10 +52,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Glide">
-      <HintPath>dlls\Glide.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Glide.dll</HintPath>
     </Reference>
     <Reference Include="Libjingle">
-      <HintPath>dlls\Libjingle.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Libjingle.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Mono.Android" />
@@ -73,70 +73,70 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
     <Reference Include="Volley">
-      <HintPath>dlls\Volley.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Volley.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Android.Support.Animated.Vector.Drawable">
-      <HintPath>dlls\Xamarin.Android.Support.Animated.Vector.Drawable.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.Animated.Vector.Drawable.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Android.Support.Annotations">
-      <HintPath>dlls\Xamarin.Android.Support.Annotations.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.Annotations.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Android.Support.Compat">
-      <HintPath>dlls\Xamarin.Android.Support.Compat.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.Compat.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Android.Support.Core.UI">
-      <HintPath>dlls\Xamarin.Android.Support.Core.UI.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.Core.UI.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Android.Support.Core.Utils">
-      <HintPath>dlls\Xamarin.Android.Support.Core.Utils.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.Core.Utils.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Android.Support.Design">
-      <HintPath>dlls\Xamarin.Android.Support.Design.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.Design.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Android.Support.Fragment">
-      <HintPath>dlls\Xamarin.Android.Support.Fragment.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.Fragment.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Android.Support.Media.Compat">
-      <HintPath>dlls\Xamarin.Android.Support.Media.Compat.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.Media.Compat.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Android.Support.Transition">
-      <HintPath>dlls\Xamarin.Android.Support.Transition.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.Transition.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Android.Support.v4">
-      <HintPath>dlls\Xamarin.Android.Support.v4.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.v4.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Android.Support.v7.AppCompat">
-      <HintPath>dlls\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Android.Support.v7.RecyclerView">
-      <HintPath>dlls\Xamarin.Android.Support.v7.RecyclerView.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.v7.RecyclerView.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Android.Support.Vector.Drawable">
-      <HintPath>dlls\Xamarin.Android.Support.Vector.Drawable.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.Vector.Drawable.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Bindings.CircleImageView">
-      <HintPath>dlls\Xamarin.Bindings.CircleImageView.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Bindings.CircleImageView.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Firebase.Auth">
-      <HintPath>dlls\Xamarin.Firebase.Auth.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Firebase.Auth.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Firebase.Common">
-      <HintPath>dlls\Xamarin.Firebase.Common.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Firebase.Common.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Firebase.Database">
-      <HintPath>dlls\Xamarin.Firebase.Database.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Firebase.Database.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Firebase.Database.Connection">
-      <HintPath>dlls\Xamarin.Firebase.Database.Connection.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Firebase.Database.Connection.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.GooglePlayServices.Base">
-      <HintPath>dlls\Xamarin.GooglePlayServices.Base.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.GooglePlayServices.Base.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.GooglePlayServices.Basement">
-      <HintPath>dlls\Xamarin.GooglePlayServices.Basement.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.GooglePlayServices.Basement.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.GooglePlayServices.Tasks">
-      <HintPath>dlls\Xamarin.GooglePlayServices.Tasks.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.GooglePlayServices.Tasks.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
