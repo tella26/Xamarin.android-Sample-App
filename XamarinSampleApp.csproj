@@ -51,92 +51,116 @@
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Glide">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Glide.dll</HintPath>
+    <Reference Include="Glide, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Glide.dll</HintPath>
     </Reference>
-    <Reference Include="Libjingle">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Libjingle.dll</HintPath>
+    <Reference Include="Libjingle, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Libjingle.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
     <Reference Include="RevTwo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Desktop\release dlls\RevTwo.dll</HintPath>
+      <HintPath>dllFiles\RevTwo.dll</HintPath>
     </Reference>
     <Reference Include="RevTwoXamarin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Desktop\release dlls\RevTwoXamarin.dll</HintPath>
+      <HintPath>dllFiles\RevTwoXamarin.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
-    <Reference Include="Volley">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Volley.dll</HintPath>
+    <Reference Include="Volley, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Volley.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Android.Support.Animated.Vector.Drawable">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.Animated.Vector.Drawable.dll</HintPath>
+    <Reference Include="Xamarin.Android.Support.Animated.Vector.Drawable, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Xamarin.Android.Support.Animated.Vector.Drawable.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Android.Support.Annotations">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.Annotations.dll</HintPath>
+    <Reference Include="Xamarin.Android.Support.Annotations, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Xamarin.Android.Support.Annotations.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Android.Support.Compat">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.Compat.dll</HintPath>
+    <Reference Include="Xamarin.Android.Support.Compat, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Xamarin.Android.Support.Compat.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Android.Support.Core.UI">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.Core.UI.dll</HintPath>
+    <Reference Include="Xamarin.Android.Support.Core.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Xamarin.Android.Support.Core.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Android.Support.Core.Utils">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.Core.Utils.dll</HintPath>
+    <Reference Include="Xamarin.Android.Support.Core.Utils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Xamarin.Android.Support.Core.Utils.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Android.Support.Design">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.Design.dll</HintPath>
+    <Reference Include="Xamarin.Android.Support.Design, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Xamarin.Android.Support.Design.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Android.Support.Fragment">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.Fragment.dll</HintPath>
+    <Reference Include="Xamarin.Android.Support.Fragment, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Xamarin.Android.Support.Fragment.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Android.Support.Media.Compat">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.Media.Compat.dll</HintPath>
+    <Reference Include="Xamarin.Android.Support.Media.Compat, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Xamarin.Android.Support.Media.Compat.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Android.Support.Transition">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.Transition.dll</HintPath>
+    <Reference Include="Xamarin.Android.Support.Transition, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Xamarin.Android.Support.Transition.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Android.Support.v4">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.v4.dll</HintPath>
+    <Reference Include="Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Xamarin.Android.Support.v4.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Android.Support.v7.AppCompat">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
+    <Reference Include="Xamarin.Android.Support.v7.AppCompat, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Android.Support.v7.RecyclerView">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.v7.RecyclerView.dll</HintPath>
+    <Reference Include="Xamarin.Android.Support.v7.RecyclerView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Xamarin.Android.Support.v7.RecyclerView.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Android.Support.Vector.Drawable">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Android.Support.Vector.Drawable.dll</HintPath>
+    <Reference Include="Xamarin.Android.Support.Vector.Drawable, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Xamarin.Android.Support.Vector.Drawable.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Bindings.CircleImageView">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Bindings.CircleImageView.dll</HintPath>
+    <Reference Include="Xamarin.Bindings.CircleImageView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Xamarin.Bindings.CircleImageView.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Firebase.Auth">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Firebase.Auth.dll</HintPath>
+    <Reference Include="Xamarin.Firebase.Auth, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Xamarin.Firebase.Auth.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Firebase.Common">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Firebase.Common.dll</HintPath>
+    <Reference Include="Xamarin.Firebase.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Xamarin.Firebase.Common.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Firebase.Database">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Firebase.Database.dll</HintPath>
+    <Reference Include="Xamarin.Firebase.Database, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Xamarin.Firebase.Database.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Firebase.Database.Connection">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.Firebase.Database.Connection.dll</HintPath>
+    <Reference Include="Xamarin.Firebase.Database.Connection, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Xamarin.Firebase.Database.Connection.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.GooglePlayServices.Base">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.GooglePlayServices.Base.dll</HintPath>
+    <Reference Include="Xamarin.GooglePlayServices.Base, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Xamarin.GooglePlayServices.Base.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.GooglePlayServices.Basement">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.GooglePlayServices.Basement.dll</HintPath>
+    <Reference Include="Xamarin.GooglePlayServices.Basement, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Xamarin.GooglePlayServices.Basement.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.GooglePlayServices.Tasks">
-      <HintPath>..\..\..\..\..\Desktop\AlldllsLatest\Xamarin.GooglePlayServices.Tasks.dll</HintPath>
+    <Reference Include="Xamarin.GooglePlayServices.Tasks, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dllFiles\Xamarin.GooglePlayServices.Tasks.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

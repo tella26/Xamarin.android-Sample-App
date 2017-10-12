@@ -21,10 +21,10 @@ namespace SampleApp
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
             SetContentView(Resource.Layout.activity_logging);
+            RevTwoXamarin.RevTwo.RegisterActivityForScreenshare(this);
 
-            // Create your application here
+
             back = FindViewById<LinearLayout>(Resource.Id.back);
             back_text = FindViewById<TextView>(Resource.Id.back_text);
 

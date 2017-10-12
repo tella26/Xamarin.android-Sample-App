@@ -23,8 +23,7 @@ namespace SampleApp
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.demo_list);
-            // Create your application here
-            //RevTwoXamarin.RevTwo.RegisterActivityForScreenshare(this);
+            RevTwoXamarin.RevTwo.RegisterActivityForScreenshare(this);
 
 
             ListAdapter = new ArrayAdapter<string>(this, Resource.Layout.demo_list_item, Resource.Id.textView1,  menuItems);

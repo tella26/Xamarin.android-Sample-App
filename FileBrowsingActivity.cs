@@ -33,8 +33,9 @@ namespace XamarinSampleApp
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_file_browsing);
+            RevTwoXamarin.RevTwo.RegisterActivityForScreenshare(this);
 
-            // Create your application here
+
             emptyListViewText = FindViewById<TextView>(Resource.Id.emptyX);
             firstAppFiles = FindViewById<ListView>(Resource.Id.firstAppFilesX);
             title = FindViewById<TextView>(Resource.Id.title);

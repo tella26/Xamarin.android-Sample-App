@@ -14,12 +14,9 @@ namespace XamarinSampleApp
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-
-            // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            RevTwo.SetDomain("https://beta.revtwo.com/index.php/");
-
+            RevTwoXamarin.RevTwo.RegisterActivityForScreenshare(this);
             RevTwoXamarin.RevTwo.Initialize("ADD YOUR KEY HERE", "ADD YOUR PRIVATE KEY HERE", ModeEnum.R2modeDevelopment, true, this, () => {
                 var activity = new Intent(this, typeof(DemoList));
                 

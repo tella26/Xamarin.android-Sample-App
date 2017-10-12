@@ -22,8 +22,9 @@ namespace XamarinSampleApp
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_sqlite_database);
+            RevTwoXamarin.RevTwo.RegisterActivityForScreenshare(this);
 
-            // Create your application her
+
             title = FindViewById<TextView>(Resource.Id.lblDescriptionX);
             title.SetText(Resource.String.sqlite);
 
