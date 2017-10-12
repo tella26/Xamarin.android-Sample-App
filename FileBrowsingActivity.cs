@@ -14,7 +14,7 @@ using Java.Util;
 
 namespace XamarinSampleApp
 {
-    [Activity(Label = "FileBrowsingActivity")]
+    [Activity(Label = "RevTwo")]
     public class FileBrowsingActivity : Activity
     {
         private List<String> fileNames;
@@ -26,6 +26,8 @@ namespace XamarinSampleApp
         Toolbar myToolbar;
         TextView txtThirdButton;
         TextView title;
+        LinearLayout back;
+        TextView back_text;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -36,10 +38,17 @@ namespace XamarinSampleApp
             emptyListViewText = FindViewById<TextView>(Resource.Id.emptyX);
             firstAppFiles = FindViewById<ListView>(Resource.Id.firstAppFilesX);
             title = FindViewById<TextView>(Resource.Id.title);
+            back = FindViewById<LinearLayout>(Resource.Id.back);
+            back_text = FindViewById<TextView>(Resource.Id.back_text);
+
 
             firstAppFiles.EmptyView = emptyListViewText;
             refreshFileList();
 
+            back_text.SetText(Resource.String.tutorials);
+            back.Click += delegate {
+                OnBackPressed();
+            };
         }
 
         private void refreshFileList()

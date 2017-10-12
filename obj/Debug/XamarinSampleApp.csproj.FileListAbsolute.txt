@@ -48,5 +48,6 @@ C:\Users\Admin\Documents\Visual Studio 2017\Projects\XamarinSampleApp2\XamarinSa
 C:\Users\Admin\Documents\Visual Studio 2017\Projects\XamarinSampleApp2\XamarinSampleApp\obj\Debug\res\values\dimens.xml\dimens.xml
 C:\Users\Admin\Documents\Visual Studio 2017\Projects\XamarinSampleApp2\XamarinSampleApp\obj\Debug\R.cs.flag
 C:\Users\Admin\Documents\Visual Studio 2017\Projects\XamarinSampleApp2\XamarinSampleApp\obj\Debug\uploadflags.txt
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\XamarinSampleApp2\XamarinSampleApp\obj\Debug\XamarinSampleApp.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\Visual Studio 2017\Projects\XamarinSampleApp2\XamarinSampleApp\bin\Debug\XamarinSampleApp.dll.mdb
 C:\Users\Admin\Documents\Visual Studio 2017\Projects\XamarinSampleApp2\XamarinSampleApp\obj\Debug\android\assets\XamarinSampleApp.dll.mdb

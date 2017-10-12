@@ -3,8 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
-  <TextView
+    <include
+        layout="@layout/action_bar" />
+    <TextView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:id="@+id/lblDescriptionX"

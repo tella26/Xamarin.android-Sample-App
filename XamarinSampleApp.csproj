@@ -60,11 +60,13 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
-    <Reference Include="RevTwo">
-      <HintPath>dlls\RevTwo.dll</HintPath>
+    <Reference Include="RevTwo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\release dlls\RevTwo.dll</HintPath>
     </Reference>
-    <Reference Include="RevTwoXamarin">
-      <HintPath>dlls\RevTwoXamarin.dll</HintPath>
+    <Reference Include="RevTwoXamarin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\release dlls\RevTwoXamarin.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

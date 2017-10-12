@@ -13,9 +13,11 @@ using XamarinSampleApp;
 
 namespace SampleApp
 {
-    [Activity(Label = "LoggingActivity")]
+    [Activity(Label = "RevTwo")]
     public class LoggingActivity : Activity
     {
+        LinearLayout back;
+        TextView back_text;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -23,6 +25,8 @@ namespace SampleApp
             SetContentView(Resource.Layout.activity_logging);
 
             // Create your application here
+            back = FindViewById<LinearLayout>(Resource.Id.back);
+            back_text = FindViewById<TextView>(Resource.Id.back_text);
 
             Button traceBtn = FindViewById<Button>(Resource.Id.btnTraceLog1);
             traceBtn.Click += delegate {
@@ -44,6 +48,10 @@ namespace SampleApp
                 RevTwoXamarin.RevTwo.Trace("Error Log Message", this);
             };
 
+            back_text.SetText(Resource.String.tutorials);
+            back.Click += delegate {
+                OnBackPressed();
+            };
         }
     }
 }

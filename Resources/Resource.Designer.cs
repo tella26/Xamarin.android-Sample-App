@@ -838,6 +838,7 @@ namespace XamarinSampleApp
 			global::RevTwoXamarin.Resource.Id.center = global::XamarinSampleApp.Resource.Id.center;
 			global::RevTwoXamarin.Resource.Id.center_horizontal = global::XamarinSampleApp.Resource.Id.center_horizontal;
 			global::RevTwoXamarin.Resource.Id.center_vertical = global::XamarinSampleApp.Resource.Id.center_vertical;
+			global::RevTwoXamarin.Resource.Id.chatImagePreview = global::XamarinSampleApp.Resource.Id.chatImagePreview;
 			global::RevTwoXamarin.Resource.Id.checkbox = global::XamarinSampleApp.Resource.Id.checkbox;
 			global::RevTwoXamarin.Resource.Id.chronometer = global::XamarinSampleApp.Resource.Id.chronometer;
 			global::RevTwoXamarin.Resource.Id.clip_horizontal = global::XamarinSampleApp.Resource.Id.clip_horizontal;
@@ -988,6 +989,7 @@ namespace XamarinSampleApp
 			global::RevTwoXamarin.Resource.Id.submenuarrow = global::XamarinSampleApp.Resource.Id.submenuarrow;
 			global::RevTwoXamarin.Resource.Id.submit = global::XamarinSampleApp.Resource.Id.submit;
 			global::RevTwoXamarin.Resource.Id.submit_area = global::XamarinSampleApp.Resource.Id.submit_area;
+			global::RevTwoXamarin.Resource.Id.sv_knowledge_base = global::XamarinSampleApp.Resource.Id.sv_knowledge_base;
 			global::RevTwoXamarin.Resource.Id.tabMode = global::XamarinSampleApp.Resource.Id.tabMode;
 			global::RevTwoXamarin.Resource.Id.tb_toolbar = global::XamarinSampleApp.Resource.Id.tb_toolbar;
 			global::RevTwoXamarin.Resource.Id.text = global::XamarinSampleApp.Resource.Id.text;
@@ -1071,6 +1073,7 @@ namespace XamarinSampleApp
 			global::RevTwoXamarin.Resource.Layout.activity_chat = global::XamarinSampleApp.Resource.Layout.activity_chat;
 			global::RevTwoXamarin.Resource.Layout.activity_community = global::XamarinSampleApp.Resource.Layout.activity_community;
 			global::RevTwoXamarin.Resource.Layout.activity_create_ticket_form = global::XamarinSampleApp.Resource.Layout.activity_create_ticket_form;
+			global::RevTwoXamarin.Resource.Layout.activity_image_preview = global::XamarinSampleApp.Resource.Layout.activity_image_preview;
 			global::RevTwoXamarin.Resource.Layout.activity_incoming_call = global::XamarinSampleApp.Resource.Layout.activity_incoming_call;
 			global::RevTwoXamarin.Resource.Layout.activity_issue_resolved = global::XamarinSampleApp.Resource.Layout.activity_issue_resolved;
 			global::RevTwoXamarin.Resource.Layout.activity_kb = global::XamarinSampleApp.Resource.Layout.activity_kb;
@@ -1173,6 +1176,7 @@ namespace XamarinSampleApp
 			global::RevTwoXamarin.Resource.String.caller_tip_text = global::XamarinSampleApp.Resource.String.caller_tip_text;
 			global::RevTwoXamarin.Resource.String.cancel_help_request_label = global::XamarinSampleApp.Resource.String.cancel_help_request_label;
 			global::RevTwoXamarin.Resource.String.character_counter_pattern = global::XamarinSampleApp.Resource.String.character_counter_pattern;
+			global::RevTwoXamarin.Resource.String.close_ticket = global::XamarinSampleApp.Resource.String.close_ticket;
 			global::RevTwoXamarin.Resource.String.common_google_play_services_enable_button = global::XamarinSampleApp.Resource.String.common_google_play_services_enable_button;
 			global::RevTwoXamarin.Resource.String.common_google_play_services_enable_text = global::XamarinSampleApp.Resource.String.common_google_play_services_enable_text;
 			global::RevTwoXamarin.Resource.String.common_google_play_services_enable_title = global::XamarinSampleApp.Resource.String.common_google_play_services_enable_title;
@@ -4499,8 +4503,8 @@ namespace XamarinSampleApp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b00f3
-			public const int action0 = 2131427571;
+			// aapt resource value: 0x7f0b00ef
+			public const int action0 = 2131427567;
 			
 			// aapt resource value: 0x7f0b006b
 			public const int action_bar = 2131427435;
@@ -4523,20 +4527,20 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b0048
 			public const int action_bar_title = 2131427400;
 			
-			// aapt resource value: 0x7f0b0098
-			public const int action_button = 2131427480;
+			// aapt resource value: 0x7f0b0097
+			public const int action_button = 2131427479;
 			
-			// aapt resource value: 0x7f0b00f0
-			public const int action_container = 2131427568;
+			// aapt resource value: 0x7f0b00ec
+			public const int action_container = 2131427564;
 			
 			// aapt resource value: 0x7f0b006c
 			public const int action_context_bar = 2131427436;
 			
-			// aapt resource value: 0x7f0b00f7
-			public const int action_divider = 2131427575;
+			// aapt resource value: 0x7f0b00f3
+			public const int action_divider = 2131427571;
 			
-			// aapt resource value: 0x7f0b00f1
-			public const int action_image = 2131427569;
+			// aapt resource value: 0x7f0b00ed
+			public const int action_image = 2131427565;
 			
 			// aapt resource value: 0x7f0b0003
 			public const int action_menu_divider = 2131427331;
@@ -4553,20 +4557,20 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b004a
 			public const int action_mode_close_button = 2131427402;
 			
-			// aapt resource value: 0x7f0b00f2
-			public const int action_text = 2131427570;
+			// aapt resource value: 0x7f0b00ee
+			public const int action_text = 2131427566;
 			
-			// aapt resource value: 0x7f0b0100
-			public const int actions = 2131427584;
+			// aapt resource value: 0x7f0b00fc
+			public const int actions = 2131427580;
 			
 			// aapt resource value: 0x7f0b004b
 			public const int activity_chooser_view_content = 2131427403;
 			
-			// aapt resource value: 0x7f0b00b2
-			public const int activity_kb = 2131427506;
+			// aapt resource value: 0x7f0b00ae
+			public const int activity_kb = 2131427502;
 			
-			// aapt resource value: 0x7f0b00bd
-			public const int activity_main_new_container = 2131427517;
+			// aapt resource value: 0x7f0b00b9
+			public const int activity_main_new_container = 2131427513;
 			
 			// aapt resource value: 0x7f0b0021
 			public const int add = 2131427361;
@@ -4586,41 +4590,41 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b002b
 			public const int always = 2131427371;
 			
-			// aapt resource value: 0x7f0b00c0
-			public const int ask_question = 2131427520;
+			// aapt resource value: 0x7f0b00bc
+			public const int ask_question = 2131427516;
 			
-			// aapt resource value: 0x7f0b00bf
-			public const int ask_question_lbl = 2131427519;
+			// aapt resource value: 0x7f0b00bb
+			public const int ask_question_lbl = 2131427515;
 			
-			// aapt resource value: 0x7f0b009c
-			public const int attach = 2131427484;
+			// aapt resource value: 0x7f0b009b
+			public const int attach = 2131427483;
 			
 			// aapt resource value: 0x7f0b0015
 			public const int auto = 2131427349;
 			
-			// aapt resource value: 0x7f0b00d0
-			public const int avatar = 2131427536;
+			// aapt resource value: 0x7f0b00cc
+			public const int avatar = 2131427532;
 			
-			// aapt resource value: 0x7f0b00a0
-			public const int back = 2131427488;
+			// aapt resource value: 0x7f0b007b
+			public const int back = 2131427451;
+			
+			// aapt resource value: 0x7f0b008b
+			public const int backButton = 2131427467;
 			
 			// aapt resource value: 0x7f0b008c
-			public const int backButton = 2131427468;
+			public const int backButtonImage = 2131427468;
 			
-			// aapt resource value: 0x7f0b008d
-			public const int backButtonImage = 2131427469;
-			
-			// aapt resource value: 0x7f0b00a1
-			public const int back_text = 2131427489;
+			// aapt resource value: 0x7f0b007d
+			public const int back_text = 2131427453;
 			
 			// aapt resource value: 0x7f0b0028
 			public const int beginning = 2131427368;
 			
-			// aapt resource value: 0x7f0b00da
-			public const int blue_bullet = 2131427546;
+			// aapt resource value: 0x7f0b00d6
+			public const int blue_bullet = 2131427542;
 			
-			// aapt resource value: 0x7f0b00ea
-			public const int bn_ask_question = 2131427562;
+			// aapt resource value: 0x7f0b00e6
+			public const int bn_ask_question = 2131427558;
 			
 			// aapt resource value: 0x7f0b0084
 			public const int bn_submit = 2131427460;
@@ -4631,47 +4635,47 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b0086
 			public const int bottom_menu_list = 2131427462;
 			
-			// aapt resource value: 0x7f0b00cd
-			public const int bottom_menu_text = 2131427533;
+			// aapt resource value: 0x7f0b00c9
+			public const int bottom_menu_text = 2131427529;
 			
-			// aapt resource value: 0x7f0b00ae
-			public const int btnAcceptCall = 2131427502;
+			// aapt resource value: 0x7f0b00aa
+			public const int btnAcceptCall = 2131427498;
+			
+			// aapt resource value: 0x7f0b00b0
+			public const int btnAnswerOk = 2131427504;
+			
+			// aapt resource value: 0x7f0b00b6
+			public const int btnDebugLog1 = 2131427510;
+			
+			// aapt resource value: 0x7f0b00a9
+			public const int btnDeclineCall = 2131427497;
+			
+			// aapt resource value: 0x7f0b00b8
+			public const int btnErrorLog1 = 2131427512;
 			
 			// aapt resource value: 0x7f0b00b5
-			public const int btnAnswerOk = 2131427509;
+			public const int btnTraceLog1 = 2131427509;
 			
-			// aapt resource value: 0x7f0b00ba
-			public const int btnDebugLog1 = 2131427514;
-			
-			// aapt resource value: 0x7f0b00ad
-			public const int btnDeclineCall = 2131427501;
-			
-			// aapt resource value: 0x7f0b00bc
-			public const int btnErrorLog1 = 2131427516;
-			
-			// aapt resource value: 0x7f0b00b9
-			public const int btnTraceLog1 = 2131427513;
-			
-			// aapt resource value: 0x7f0b00bb
-			public const int btnWarningLog1 = 2131427515;
+			// aapt resource value: 0x7f0b00b7
+			public const int btnWarningLog1 = 2131427511;
 			
 			// aapt resource value: 0x7f0b0052
 			public const int buttonPanel = 2131427410;
 			
-			// aapt resource value: 0x7f0b00e9
-			public const int bv_border = 2131427561;
+			// aapt resource value: 0x7f0b00e5
+			public const int bv_border = 2131427557;
 			
-			// aapt resource value: 0x7f0b00a4
-			public const int call = 2131427492;
+			// aapt resource value: 0x7f0b0080
+			public const int call = 2131427456;
 			
-			// aapt resource value: 0x7f0b008f
-			public const int callButton = 2131427471;
+			// aapt resource value: 0x7f0b008e
+			public const int callButton = 2131427470;
 			
-			// aapt resource value: 0x7f0b00ca
-			public const int caller_tip_text = 2131427530;
+			// aapt resource value: 0x7f0b00c6
+			public const int caller_tip_text = 2131427526;
 			
-			// aapt resource value: 0x7f0b00f4
-			public const int cancel_action = 2131427572;
+			// aapt resource value: 0x7f0b00f0
+			public const int cancel_action = 2131427568;
 			
 			// aapt resource value: 0x7f0b0087
 			public const int cancel_layout = 2131427463;
@@ -4685,11 +4689,14 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b0039
 			public const int center_vertical = 2131427385;
 			
+			// aapt resource value: 0x7f0b00a6
+			public const int chatImagePreview = 2131427494;
+			
 			// aapt resource value: 0x7f0b0062
 			public const int checkbox = 2131427426;
 			
-			// aapt resource value: 0x7f0b00fc
-			public const int chronometer = 2131427580;
+			// aapt resource value: 0x7f0b00f8
+			public const int chronometer = 2131427576;
 			
 			// aapt resource value: 0x7f0b0040
 			public const int clip_horizontal = 2131427392;
@@ -4697,14 +4704,14 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b0041
 			public const int clip_vertical = 2131427393;
 			
-			// aapt resource value: 0x7f0b0091
-			public const int closeTicketButton = 2131427473;
+			// aapt resource value: 0x7f0b0090
+			public const int closeTicketButton = 2131427472;
 			
 			// aapt resource value: 0x7f0b002c
 			public const int collapseActionView = 2131427372;
 			
-			// aapt resource value: 0x7f0b00be
-			public const int container = 2131427518;
+			// aapt resource value: 0x7f0b00ba
+			public const int container = 2131427514;
 			
 			// aapt resource value: 0x7f0b0055
 			public const int contentPanel = 2131427413;
@@ -4718,8 +4725,8 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b0016
 			public const int dark = 2131427350;
 			
-			// aapt resource value: 0x7f0b0095
-			public const int date = 2131427477;
+			// aapt resource value: 0x7f0b0094
+			public const int date = 2131427476;
 			
 			// aapt resource value: 0x7f0b0069
 			public const int decor_content_parent = 2131427433;
@@ -4727,23 +4734,23 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b004e
 			public const int default_activity_button = 2131427406;
 			
-			// aapt resource value: 0x7f0b0097
-			public const int description = 2131427479;
+			// aapt resource value: 0x7f0b0096
+			public const int description = 2131427478;
+			
+			// aapt resource value: 0x7f0b00db
+			public const int design_bottom_sheet = 2131427547;
+			
+			// aapt resource value: 0x7f0b00e2
+			public const int design_menu_item_action_area = 2131427554;
+			
+			// aapt resource value: 0x7f0b00e1
+			public const int design_menu_item_action_area_stub = 2131427553;
+			
+			// aapt resource value: 0x7f0b00e0
+			public const int design_menu_item_text = 2131427552;
 			
 			// aapt resource value: 0x7f0b00df
-			public const int design_bottom_sheet = 2131427551;
-			
-			// aapt resource value: 0x7f0b00e6
-			public const int design_menu_item_action_area = 2131427558;
-			
-			// aapt resource value: 0x7f0b00e5
-			public const int design_menu_item_action_area_stub = 2131427557;
-			
-			// aapt resource value: 0x7f0b00e4
-			public const int design_menu_item_text = 2131427556;
-			
-			// aapt resource value: 0x7f0b00e3
-			public const int design_navigation_view = 2131427555;
+			public const int design_navigation_view = 2131427551;
 			
 			// aapt resource value: 0x7f0b001b
 			public const int disableHome = 2131427355;
@@ -4751,20 +4758,20 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b006d
 			public const int edit_query = 2131427437;
 			
-			// aapt resource value: 0x7f0b00aa
-			public const int emptyX = 2131427498;
+			// aapt resource value: 0x7f0b00a4
+			public const int emptyX = 2131427492;
 			
-			// aapt resource value: 0x7f0b00a5
-			public const int empty_list_text = 2131427493;
+			// aapt resource value: 0x7f0b009f
+			public const int empty_list_text = 2131427487;
 			
 			// aapt resource value: 0x7f0b0029
 			public const int end = 2131427369;
 			
-			// aapt resource value: 0x7f0b00c8
-			public const int end_call = 2131427528;
+			// aapt resource value: 0x7f0b00c4
+			public const int end_call = 2131427524;
 			
-			// aapt resource value: 0x7f0b0106
-			public const int end_padder = 2131427590;
+			// aapt resource value: 0x7f0b0102
+			public const int end_padder = 2131427586;
 			
 			// aapt resource value: 0x7f0b0032
 			public const int enterAlways = 2131427378;
@@ -4793,20 +4800,20 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b003a
 			public const int fill_vertical = 2131427386;
 			
-			// aapt resource value: 0x7f0b00a9
-			public const int firstAppFilesX = 2131427497;
+			// aapt resource value: 0x7f0b00a3
+			public const int firstAppFilesX = 2131427491;
 			
 			// aapt resource value: 0x7f0b0046
 			public const int @fixed = 2131427398;
 			
-			// aapt resource value: 0x7f0b0090
-			public const int followButton = 2131427472;
+			// aapt resource value: 0x7f0b008f
+			public const int followButton = 2131427471;
 			
-			// aapt resource value: 0x7f0b0099
-			public const int foundAnswer = 2131427481;
+			// aapt resource value: 0x7f0b0098
+			public const int foundAnswer = 2131427480;
 			
-			// aapt resource value: 0x7f0b0094
-			public const int help_icon = 2131427476;
+			// aapt resource value: 0x7f0b0093
+			public const int help_icon = 2131427475;
 			
 			// aapt resource value: 0x7f0b0005
 			public const int home = 2131427333;
@@ -4814,14 +4821,14 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b001c
 			public const int homeAsUp = 2131427356;
 			
-			// aapt resource value: 0x7f0b0096
-			public const int icflag = 2131427478;
+			// aapt resource value: 0x7f0b0095
+			public const int icflag = 2131427477;
 			
 			// aapt resource value: 0x7f0b0050
 			public const int icon = 2131427408;
 			
-			// aapt resource value: 0x7f0b0101
-			public const int icon_group = 2131427585;
+			// aapt resource value: 0x7f0b00fd
+			public const int icon_group = 2131427581;
 			
 			// aapt resource value: 0x7f0b0012
 			public const int icon_only = 2131427346;
@@ -4835,41 +4842,38 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b007c
 			public const int imgBackIcon = 2131427452;
 			
-			// aapt resource value: 0x7f0b0080
-			public const int imgCloseIcon = 2131427456;
+			// aapt resource value: 0x7f0b00d0
+			public const int in_message_color = 2131427536;
 			
-			// aapt resource value: 0x7f0b00d4
-			public const int in_message_color = 2131427540;
+			// aapt resource value: 0x7f0b00ce
+			public const int in_message_image = 2131427534;
 			
-			// aapt resource value: 0x7f0b00d2
-			public const int in_message_image = 2131427538;
+			// aapt resource value: 0x7f0b00cf
+			public const int in_message_layout = 2131427535;
 			
-			// aapt resource value: 0x7f0b00d3
-			public const int in_message_layout = 2131427539;
+			// aapt resource value: 0x7f0b00d1
+			public const int in_message_text = 2131427537;
 			
-			// aapt resource value: 0x7f0b00d5
-			public const int in_message_text = 2131427541;
+			// aapt resource value: 0x7f0b00f9
+			public const int info = 2131427577;
 			
-			// aapt resource value: 0x7f0b00fd
-			public const int info = 2131427581;
-			
-			// aapt resource value: 0x7f0b00a7
-			public const int input = 2131427495;
+			// aapt resource value: 0x7f0b00a1
+			public const int input = 2131427489;
 			
 			// aapt resource value: 0x7f0b0000
 			public const int item_touch_helper_previous_elevation = 2131427328;
 			
-			// aapt resource value: 0x7f0b00eb
-			public const int iv_category_icon = 2131427563;
+			// aapt resource value: 0x7f0b00e7
+			public const int iv_category_icon = 2131427559;
 			
 			// aapt resource value: 0x7f0b0081
 			public const int iv_close = 2131427457;
 			
-			// aapt resource value: 0x7f0b00dd
-			public const int largeLabel = 2131427549;
+			// aapt resource value: 0x7f0b00d9
+			public const int largeLabel = 2131427545;
 			
-			// aapt resource value: 0x7f0b00c9
-			public const int lblDescriptionX = 2131427529;
+			// aapt resource value: 0x7f0b00c5
+			public const int lblDescriptionX = 2131427525;
 			
 			// aapt resource value: 0x7f0b003b
 			public const int left = 2131427387;
@@ -4877,14 +4881,14 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b0017
 			public const int light = 2131427351;
 			
-			// aapt resource value: 0x7f0b0102
-			public const int line1 = 2131427586;
+			// aapt resource value: 0x7f0b00fe
+			public const int line1 = 2131427582;
 			
-			// aapt resource value: 0x7f0b0104
-			public const int line3 = 2131427588;
+			// aapt resource value: 0x7f0b0100
+			public const int line3 = 2131427584;
 			
-			// aapt resource value: 0x7f0b0092
-			public const int list = 2131427474;
+			// aapt resource value: 0x7f0b0091
+			public const int list = 2131427473;
 			
 			// aapt resource value: 0x7f0b0018
 			public const int listMode = 2131427352;
@@ -4895,20 +4899,17 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b0082
 			public const int ll_ask_question = 2131427458;
 			
-			// aapt resource value: 0x7f0b00b6
-			public const int ll_search_knowledge_base = 2131427510;
+			// aapt resource value: 0x7f0b00b1
+			public const int ll_search_knowledge_base = 2131427505;
 			
-			// aapt resource value: 0x7f0b007b
-			public const int lnrBackButton = 2131427451;
+			// aapt resource value: 0x7f0b0104
+			public const int masked = 2131427588;
 			
-			// aapt resource value: 0x7f0b0108
-			public const int masked = 2131427592;
+			// aapt resource value: 0x7f0b00f2
+			public const int media_actions = 2131427570;
 			
-			// aapt resource value: 0x7f0b00f6
-			public const int media_actions = 2131427574;
-			
-			// aapt resource value: 0x7f0b009d
-			public const int messageBody = 2131427485;
+			// aapt resource value: 0x7f0b009c
+			public const int messageBody = 2131427484;
 			
 			// aapt resource value: 0x7f0b008a
 			public const int message_box = 2131427466;
@@ -4922,11 +4923,11 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b0022
 			public const int multiply = 2131427362;
 			
-			// aapt resource value: 0x7f0b00c7
-			public const int mute = 2131427527;
+			// aapt resource value: 0x7f0b00c3
+			public const int mute = 2131427523;
 			
-			// aapt resource value: 0x7f0b00e2
-			public const int navigation_header_container = 2131427554;
+			// aapt resource value: 0x7f0b00de
+			public const int navigation_header_container = 2131427550;
 			
 			// aapt resource value: 0x7f0b002e
 			public const int never = 2131427374;
@@ -4937,35 +4938,35 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b0019
 			public const int normal = 2131427353;
 			
-			// aapt resource value: 0x7f0b00ff
-			public const int notification_background = 2131427583;
+			// aapt resource value: 0x7f0b00fb
+			public const int notification_background = 2131427579;
 			
-			// aapt resource value: 0x7f0b00f9
-			public const int notification_main_column = 2131427577;
+			// aapt resource value: 0x7f0b00f5
+			public const int notification_main_column = 2131427573;
 			
-			// aapt resource value: 0x7f0b00f8
-			public const int notification_main_column_container = 2131427576;
+			// aapt resource value: 0x7f0b00f4
+			public const int notification_main_column_container = 2131427572;
 			
-			// aapt resource value: 0x7f0b00a2
-			public const int options = 2131427490;
+			// aapt resource value: 0x7f0b007e
+			public const int options = 2131427454;
 			
-			// aapt resource value: 0x7f0b0093
-			public const int options_view = 2131427475;
+			// aapt resource value: 0x7f0b0092
+			public const int options_view = 2131427474;
 			
-			// aapt resource value: 0x7f0b00d8
-			public const int out_message_color = 2131427544;
+			// aapt resource value: 0x7f0b00d4
+			public const int out_message_color = 2131427540;
 			
-			// aapt resource value: 0x7f0b00d6
-			public const int out_message_image = 2131427542;
+			// aapt resource value: 0x7f0b00d2
+			public const int out_message_image = 2131427538;
 			
-			// aapt resource value: 0x7f0b00d7
-			public const int out_message_layout = 2131427543;
+			// aapt resource value: 0x7f0b00d3
+			public const int out_message_layout = 2131427539;
 			
-			// aapt resource value: 0x7f0b00d9
-			public const int out_message_text = 2131427545;
+			// aapt resource value: 0x7f0b00d5
+			public const int out_message_text = 2131427541;
 			
-			// aapt resource value: 0x7f0b009f
-			public const int overlay = 2131427487;
+			// aapt resource value: 0x7f0b009e
+			public const int overlay = 2131427486;
 			
 			// aapt resource value: 0x7f0b003e
 			public const int parallax = 2131427390;
@@ -4973,14 +4974,14 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b0054
 			public const int parentPanel = 2131427412;
 			
-			// aapt resource value: 0x7f0b00b8
-			public const int pb_loader = 2131427512;
+			// aapt resource value: 0x7f0b00b4
+			public const int pb_loader = 2131427508;
 			
 			// aapt resource value: 0x7f0b003f
 			public const int pin = 2131427391;
 			
-			// aapt resource value: 0x7f0b00a6
-			public const int progress = 2131427494;
+			// aapt resource value: 0x7f0b00a0
+			public const int progress = 2131427488;
 			
 			// aapt resource value: 0x7f0b0006
 			public const int progress_circular = 2131427334;
@@ -4991,38 +4992,38 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b0064
 			public const int radio = 2131427428;
 			
-			// aapt resource value: 0x7f0b00c2
-			public const int rb_rating = 2131427522;
+			// aapt resource value: 0x7f0b00be
+			public const int rb_rating = 2131427518;
 			
-			// aapt resource value: 0x7f0b00af
-			public const int rewtwo_dialog_negative_button = 2131427503;
+			// aapt resource value: 0x7f0b00ab
+			public const int rewtwo_dialog_negative_button = 2131427499;
 			
-			// aapt resource value: 0x7f0b00b1
-			public const int rewtwo_dialog_positive_button = 2131427505;
+			// aapt resource value: 0x7f0b00ad
+			public const int rewtwo_dialog_positive_button = 2131427501;
 			
-			// aapt resource value: 0x7f0b00b0
-			public const int rewtwo_dialog_positive_button_border = 2131427504;
+			// aapt resource value: 0x7f0b00ac
+			public const int rewtwo_dialog_positive_button_border = 2131427500;
 			
 			// aapt resource value: 0x7f0b003c
 			public const int right = 2131427388;
 			
-			// aapt resource value: 0x7f0b00fe
-			public const int right_icon = 2131427582;
-			
 			// aapt resource value: 0x7f0b00fa
-			public const int right_side = 2131427578;
+			public const int right_icon = 2131427578;
+			
+			// aapt resource value: 0x7f0b00f6
+			public const int right_side = 2131427574;
 			
 			// aapt resource value: 0x7f0b0088
 			public const int rltCancelMenu = 2131427464;
 			
-			// aapt resource value: 0x7f0b00ab
-			public const int rltIncomingCallView = 2131427499;
+			// aapt resource value: 0x7f0b00a7
+			public const int rltIncomingCallView = 2131427495;
 			
-			// aapt resource value: 0x7f0b00ed
-			public const int rltMenuListItem = 2131427565;
+			// aapt resource value: 0x7f0b00e9
+			public const int rltMenuListItem = 2131427561;
 			
-			// aapt resource value: 0x7f0b00b7
-			public const int rv_knowledge_base = 2131427511;
+			// aapt resource value: 0x7f0b00b3
+			public const int rv_knowledge_base = 2131427507;
 			
 			// aapt resource value: 0x7f0b0023
 			public const int screen = 2131427363;
@@ -5075,17 +5076,17 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b0079
 			public const int select_dialog_listview = 2131427449;
 			
-			// aapt resource value: 0x7f0b009e
-			public const int send = 2131427486;
+			// aapt resource value: 0x7f0b009d
+			public const int send = 2131427485;
 			
-			// aapt resource value: 0x7f0b00c5
-			public const int share_screen = 2131427525;
+			// aapt resource value: 0x7f0b00c1
+			public const int share_screen = 2131427521;
 			
-			// aapt resource value: 0x7f0b00cc
-			public const int share_screen_background = 2131427532;
+			// aapt resource value: 0x7f0b00c8
+			public const int share_screen_background = 2131427528;
 			
-			// aapt resource value: 0x7f0b00cb
-			public const int share_screen_layout = 2131427531;
+			// aapt resource value: 0x7f0b00c7
+			public const int share_screen_layout = 2131427527;
 			
 			// aapt resource value: 0x7f0b0063
 			public const int shortcut = 2131427427;
@@ -5099,26 +5100,26 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b001f
 			public const int showTitle = 2131427359;
 			
+			// aapt resource value: 0x7f0b00d8
+			public const int smallLabel = 2131427544;
+			
+			// aapt resource value: 0x7f0b00dd
+			public const int snackbar_action = 2131427549;
+			
 			// aapt resource value: 0x7f0b00dc
-			public const int smallLabel = 2131427548;
-			
-			// aapt resource value: 0x7f0b00e1
-			public const int snackbar_action = 2131427553;
-			
-			// aapt resource value: 0x7f0b00e0
-			public const int snackbar_text = 2131427552;
+			public const int snackbar_text = 2131427548;
 			
 			// aapt resource value: 0x7f0b0036
 			public const int snap = 2131427382;
 			
-			// aapt resource value: 0x7f0b009a
-			public const int solved = 2131427482;
+			// aapt resource value: 0x7f0b0099
+			public const int solved = 2131427481;
 			
 			// aapt resource value: 0x7f0b0053
 			public const int spacer = 2131427411;
 			
-			// aapt resource value: 0x7f0b00c6
-			public const int speaker = 2131427526;
+			// aapt resource value: 0x7f0b00c2
+			public const int speaker = 2131427522;
 			
 			// aapt resource value: 0x7f0b0008
 			public const int split_action_bar = 2131427336;
@@ -5138,32 +5139,35 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b003d
 			public const int start = 2131427389;
 			
-			// aapt resource value: 0x7f0b00ef
-			public const int status = 2131427567;
+			// aapt resource value: 0x7f0b00eb
+			public const int status = 2131427563;
 			
-			// aapt resource value: 0x7f0b00f5
-			public const int status_bar_latest_event_content = 2131427573;
+			// aapt resource value: 0x7f0b00f1
+			public const int status_bar_latest_event_content = 2131427569;
 			
 			// aapt resource value: 0x7f0b0065
 			public const int submenuarrow = 2131427429;
 			
-			// aapt resource value: 0x7f0b00a8
-			public const int submit = 2131427496;
+			// aapt resource value: 0x7f0b00a2
+			public const int submit = 2131427490;
 			
 			// aapt resource value: 0x7f0b0076
 			public const int submit_area = 2131427446;
 			
+			// aapt resource value: 0x7f0b00b2
+			public const int sv_knowledge_base = 2131427506;
+			
 			// aapt resource value: 0x7f0b001a
 			public const int tabMode = 2131427354;
 			
-			// aapt resource value: 0x7f0b00b3
-			public const int tb_toolbar = 2131427507;
+			// aapt resource value: 0x7f0b00a5
+			public const int tb_toolbar = 2131427493;
 			
-			// aapt resource value: 0x7f0b0105
-			public const int text = 2131427589;
+			// aapt resource value: 0x7f0b0101
+			public const int text = 2131427585;
 			
-			// aapt resource value: 0x7f0b0103
-			public const int text2 = 2131427587;
+			// aapt resource value: 0x7f0b00ff
+			public const int text2 = 2131427583;
 			
 			// aapt resource value: 0x7f0b0059
 			public const int textSpacerNoButtons = 2131427417;
@@ -5171,11 +5175,11 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b0058
 			public const int textSpacerNoTitle = 2131427416;
 			
-			// aapt resource value: 0x7f0b00db
-			public const int textView1 = 2131427547;
+			// aapt resource value: 0x7f0b00d7
+			public const int textView1 = 2131427543;
 			
-			// aapt resource value: 0x7f0b00e7
-			public const int text_input_password_toggle = 2131427559;
+			// aapt resource value: 0x7f0b00e3
+			public const int text_input_password_toggle = 2131427555;
 			
 			// aapt resource value: 0x7f0b000c
 			public const int textinput_counter = 2131427340;
@@ -5183,11 +5187,11 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b000d
 			public const int textinput_error = 2131427341;
 			
-			// aapt resource value: 0x7f0b00fb
-			public const int time = 2131427579;
+			// aapt resource value: 0x7f0b00f7
+			public const int time = 2131427575;
 			
-			// aapt resource value: 0x7f0b00ce
-			public const int timestamp = 2131427534;
+			// aapt resource value: 0x7f0b00ca
+			public const int timestamp = 2131427530;
 			
 			// aapt resource value: 0x7f0b0051
 			public const int title = 2131427409;
@@ -5195,17 +5199,14 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b0060
 			public const int titleDividerNoCustom = 2131427424;
 			
-			// aapt resource value: 0x7f0b008e
-			public const int titleViewContainer = 2131427470;
+			// aapt resource value: 0x7f0b008d
+			public const int titleViewContainer = 2131427469;
 			
 			// aapt resource value: 0x7f0b005e
 			public const int title_template = 2131427422;
 			
 			// aapt resource value: 0x7f0b007a
-			public const int tlbActionBarX = 2131427450;
-			
-			// aapt resource value: 0x7f0b008b
-			public const int toolbar = 2131427467;
+			public const int toolbar = 2131427450;
 			
 			// aapt resource value: 0x7f0b0031
 			public const int top = 2131427377;
@@ -5213,8 +5214,8 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b005d
 			public const int topPanel = 2131427421;
 			
-			// aapt resource value: 0x7f0b00de
-			public const int touch_outside = 2131427550;
+			// aapt resource value: 0x7f0b00da
+			public const int touch_outside = 2131427546;
 			
 			// aapt resource value: 0x7f0b000a
 			public const int transition_current_scene = 2131427338;
@@ -5225,47 +5226,38 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b0085
 			public const int transparentBackground = 2131427461;
 			
+			// aapt resource value: 0x7f0b00e4
+			public const int tv_answer = 2131427556;
+			
+			// aapt resource value: 0x7f0b00bf
+			public const int tv_cancel = 2131427519;
+			
 			// aapt resource value: 0x7f0b00e8
-			public const int tv_answer = 2131427560;
+			public const int tv_category_title = 2131427560;
 			
-			// aapt resource value: 0x7f0b00c3
-			public const int tv_cancel = 2131427523;
+			// aapt resource value: 0x7f0b00bd
+			public const int tv_msg_info = 2131427517;
 			
-			// aapt resource value: 0x7f0b00ec
-			public const int tv_category_title = 2131427564;
+			// aapt resource value: 0x7f0b00c0
+			public const int tv_submit = 2131427520;
 			
-			// aapt resource value: 0x7f0b00c1
-			public const int tv_msg_info = 2131427521;
+			// aapt resource value: 0x7f0b007f
+			public const int tv_title = 2131427455;
 			
-			// aapt resource value: 0x7f0b00c4
-			public const int tv_submit = 2131427524;
-			
-			// aapt resource value: 0x7f0b00a3
-			public const int tv_title = 2131427491;
-			
-			// aapt resource value: 0x7f0b00d1
-			public const int txtAvatar = 2131427537;
+			// aapt resource value: 0x7f0b00cd
+			public const int txtAvatar = 2131427533;
 			
 			// aapt resource value: 0x7f0b0089
 			public const int txtCancel = 2131427465;
 			
-			// aapt resource value: 0x7f0b00ac
-			public const int txtIncomingCallText = 2131427500;
+			// aapt resource value: 0x7f0b00a8
+			public const int txtIncomingCallText = 2131427496;
 			
-			// aapt resource value: 0x7f0b00ee
-			public const int txtMenuItem = 2131427566;
+			// aapt resource value: 0x7f0b00ea
+			public const int txtMenuItem = 2131427562;
 			
-			// aapt resource value: 0x7f0b007f
-			public const int txtThirdButton = 2131427455;
-			
-			// aapt resource value: 0x7f0b007e
-			public const int txtTitle = 2131427454;
-			
-			// aapt resource value: 0x7f0b007d
-			public const int txtTutorials = 2131427453;
-			
-			// aapt resource value: 0x7f0b009b
-			public const int unsolved = 2131427483;
+			// aapt resource value: 0x7f0b009a
+			public const int unsolved = 2131427482;
 			
 			// aapt resource value: 0x7f0b0009
 			public const int up = 2131427337;
@@ -5273,17 +5265,17 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f0b0020
 			public const int useLogo = 2131427360;
 			
-			// aapt resource value: 0x7f0b00cf
-			public const int username = 2131427535;
+			// aapt resource value: 0x7f0b00cb
+			public const int username = 2131427531;
 			
 			// aapt resource value: 0x7f0b000e
 			public const int view_offset_helper = 2131427342;
 			
-			// aapt resource value: 0x7f0b0107
-			public const int visible = 2131427591;
+			// aapt resource value: 0x7f0b0103
+			public const int visible = 2131427587;
 			
-			// aapt resource value: 0x7f0b00b4
-			public const int webview = 2131427508;
+			// aapt resource value: 0x7f0b00af
+			public const int webview = 2131427503;
 			
 			// aapt resource value: 0x7f0b0014
 			public const int wide = 2131427348;
@@ -5453,190 +5445,193 @@ namespace XamarinSampleApp
 			public const int activity_file_browsing = 2130968609;
 			
 			// aapt resource value: 0x7f040022
-			public const int activity_incoming_call = 2130968610;
+			public const int activity_image_preview = 2130968610;
 			
 			// aapt resource value: 0x7f040023
-			public const int activity_issue_resolved = 2130968611;
+			public const int activity_incoming_call = 2130968611;
 			
 			// aapt resource value: 0x7f040024
-			public const int activity_kb = 2130968612;
+			public const int activity_issue_resolved = 2130968612;
 			
 			// aapt resource value: 0x7f040025
-			public const int activity_kbanswers = 2130968613;
+			public const int activity_kb = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int activity_logging = 2130968614;
+			public const int activity_kbanswers = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int activity_main_new = 2130968615;
+			public const int activity_logging = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int activity_my_ticket = 2130968616;
+			public const int activity_main_new = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int activity_rating = 2130968617;
+			public const int activity_my_ticket = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int activity_screen_share = 2130968618;
+			public const int activity_rating = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int activity_sqlite_database = 2130968619;
+			public const int activity_screen_share = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int activity_start_call = 2130968620;
+			public const int activity_sqlite_database = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int bottom_menu_item = 2130968621;
+			public const int activity_start_call = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int chat_list_in_image_item = 2130968622;
+			public const int bottom_menu_item = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int chat_list_in_text_item = 2130968623;
+			public const int chat_list_in_image_item = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int chat_list_out_image_item = 2130968624;
+			public const int chat_list_in_text_item = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int chat_list_out_text_item = 2130968625;
+			public const int chat_list_out_image_item = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int community_item = 2130968626;
+			public const int chat_list_out_text_item = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int demo_list = 2130968627;
+			public const int community_item = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int demo_list_item = 2130968628;
+			public const int demo_list = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int design_bottom_navigation_item = 2130968629;
+			public const int demo_list_item = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int design_bottom_sheet_dialog = 2130968630;
+			public const int design_bottom_navigation_item = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int design_layout_snackbar = 2130968631;
+			public const int design_bottom_sheet_dialog = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int design_layout_snackbar_include = 2130968632;
+			public const int design_layout_snackbar = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int design_layout_tab_icon = 2130968633;
+			public const int design_layout_snackbar_include = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int design_layout_tab_text = 2130968634;
+			public const int design_layout_tab_icon = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int design_menu_item_action_area = 2130968635;
+			public const int design_layout_tab_text = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int design_navigation_item = 2130968636;
+			public const int design_menu_item_action_area = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int design_navigation_item_header = 2130968637;
+			public const int design_navigation_item = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int design_navigation_item_separator = 2130968638;
+			public const int design_navigation_item_header = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int design_navigation_item_subheader = 2130968639;
+			public const int design_navigation_item_separator = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int design_navigation_menu = 2130968640;
+			public const int design_navigation_item_subheader = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int design_navigation_menu_item = 2130968641;
+			public const int design_navigation_menu = 2130968641;
 			
 			// aapt resource value: 0x7f040042
-			public const int design_text_input_password_icon = 2130968642;
+			public const int design_navigation_menu_item = 2130968642;
 			
 			// aapt resource value: 0x7f040043
-			public const int header_item = 2130968643;
+			public const int design_text_input_password_icon = 2130968643;
 			
 			// aapt resource value: 0x7f040044
-			public const int item_answer = 2130968644;
+			public const int header_item = 2130968644;
 			
 			// aapt resource value: 0x7f040045
-			public const int item_ask_question = 2130968645;
+			public const int item_answer = 2130968645;
 			
 			// aapt resource value: 0x7f040046
-			public const int item_category = 2130968646;
+			public const int item_ask_question = 2130968646;
 			
 			// aapt resource value: 0x7f040047
-			public const int list_item = 2130968647;
+			public const int item_category = 2130968647;
 			
 			// aapt resource value: 0x7f040048
-			public const int list_menu_item = 2130968648;
+			public const int list_item = 2130968648;
 			
 			// aapt resource value: 0x7f040049
-			public const int Main = 2130968649;
+			public const int list_menu_item = 2130968649;
 			
 			// aapt resource value: 0x7f04004a
-			public const int my_ticket_item = 2130968650;
+			public const int Main = 2130968650;
 			
 			// aapt resource value: 0x7f04004b
-			public const int notification_action = 2130968651;
+			public const int my_ticket_item = 2130968651;
 			
 			// aapt resource value: 0x7f04004c
-			public const int notification_action_tombstone = 2130968652;
+			public const int notification_action = 2130968652;
 			
 			// aapt resource value: 0x7f04004d
-			public const int notification_media_action = 2130968653;
+			public const int notification_action_tombstone = 2130968653;
 			
 			// aapt resource value: 0x7f04004e
-			public const int notification_media_cancel_action = 2130968654;
+			public const int notification_media_action = 2130968654;
 			
 			// aapt resource value: 0x7f04004f
-			public const int notification_template_big_media = 2130968655;
+			public const int notification_media_cancel_action = 2130968655;
 			
 			// aapt resource value: 0x7f040050
-			public const int notification_template_big_media_custom = 2130968656;
+			public const int notification_template_big_media = 2130968656;
 			
 			// aapt resource value: 0x7f040051
-			public const int notification_template_big_media_narrow = 2130968657;
+			public const int notification_template_big_media_custom = 2130968657;
 			
 			// aapt resource value: 0x7f040052
-			public const int notification_template_big_media_narrow_custom = 2130968658;
+			public const int notification_template_big_media_narrow = 2130968658;
 			
 			// aapt resource value: 0x7f040053
-			public const int notification_template_custom_big = 2130968659;
+			public const int notification_template_big_media_narrow_custom = 2130968659;
 			
 			// aapt resource value: 0x7f040054
-			public const int notification_template_icon_group = 2130968660;
+			public const int notification_template_custom_big = 2130968660;
 			
 			// aapt resource value: 0x7f040055
-			public const int notification_template_lines_media = 2130968661;
+			public const int notification_template_icon_group = 2130968661;
 			
 			// aapt resource value: 0x7f040056
-			public const int notification_template_media = 2130968662;
+			public const int notification_template_lines_media = 2130968662;
 			
 			// aapt resource value: 0x7f040057
-			public const int notification_template_media_custom = 2130968663;
+			public const int notification_template_media = 2130968663;
 			
 			// aapt resource value: 0x7f040058
-			public const int notification_template_part_chronometer = 2130968664;
+			public const int notification_template_media_custom = 2130968664;
 			
 			// aapt resource value: 0x7f040059
-			public const int notification_template_part_time = 2130968665;
+			public const int notification_template_part_chronometer = 2130968665;
 			
 			// aapt resource value: 0x7f04005a
-			public const int select_dialog_item_material = 2130968666;
+			public const int notification_template_part_time = 2130968666;
 			
 			// aapt resource value: 0x7f04005b
-			public const int select_dialog_multichoice_material = 2130968667;
+			public const int select_dialog_item_material = 2130968667;
 			
 			// aapt resource value: 0x7f04005c
-			public const int select_dialog_singlechoice_material = 2130968668;
+			public const int select_dialog_multichoice_material = 2130968668;
 			
 			// aapt resource value: 0x7f04005d
-			public const int splash_screen_activity = 2130968669;
+			public const int select_dialog_singlechoice_material = 2130968669;
 			
 			// aapt resource value: 0x7f04005e
-			public const int support_simple_spinner_dropdown_item = 2130968670;
+			public const int splash_screen_activity = 2130968670;
 			
 			// aapt resource value: 0x7f04005f
-			public const int toolbar = 2130968671;
+			public const int support_simple_spinner_dropdown_item = 2130968671;
+			
+			// aapt resource value: 0x7f040060
+			public const int toolbar = 2130968672;
 			
 			static Layout()
 			{
@@ -5697,11 +5692,11 @@ namespace XamarinSampleApp
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f08005d
-			public const int ApplicationName = 2131230813;
+			// aapt resource value: 0x7f08005e
+			public const int ApplicationName = 2131230814;
 			
-			// aapt resource value: 0x7f08005c
-			public const int Hello = 2131230812;
+			// aapt resource value: 0x7f08005d
+			public const int Hello = 2131230813;
 			
 			// aapt resource value: 0x7f080011
 			public const int abc_action_bar_home_description = 2131230737;
@@ -5799,20 +5794,20 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f08003b
 			public const int abuse = 2131230779;
 			
-			// aapt resource value: 0x7f08005e
-			public const int action_end_call_label = 2131230814;
-			
 			// aapt resource value: 0x7f08005f
-			public const int action_mute_call_label = 2131230815;
-			
-			// aapt resource value: 0x7f080061
-			public const int action_refresh_label = 2131230817;
-			
-			// aapt resource value: 0x7f080062
-			public const int action_settings_label = 2131230818;
+			public const int action_end_call_label = 2131230815;
 			
 			// aapt resource value: 0x7f080060
-			public const int action_use_speaker_label = 2131230816;
+			public const int action_mute_call_label = 2131230816;
+			
+			// aapt resource value: 0x7f080062
+			public const int action_refresh_label = 2131230818;
+			
+			// aapt resource value: 0x7f080063
+			public const int action_settings_label = 2131230819;
+			
+			// aapt resource value: 0x7f080061
+			public const int action_use_speaker_label = 2131230817;
 			
 			// aapt resource value: 0x7f08003c
 			public const int app_name = 2131230780;
@@ -5831,6 +5826,9 @@ namespace XamarinSampleApp
 			
 			// aapt resource value: 0x7f080034
 			public const int character_counter_pattern = 2131230772;
+			
+			// aapt resource value: 0x7f08003f
+			public const int close_ticket = 2131230783;
 			
 			// aapt resource value: 0x7f080001
 			public const int common_google_play_services_enable_button = 2131230721;
@@ -5883,83 +5881,83 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f080010
 			public const int common_signin_button_text_long = 2131230736;
 			
-			// aapt resource value: 0x7f08003f
-			public const int create_ticket_placeholder = 2131230783;
-			
 			// aapt resource value: 0x7f080040
-			public const int disable_speaker = 2131230784;
-			
-			// aapt resource value: 0x7f080063
-			public const int empty_list_view_text = 2131230819;
+			public const int create_ticket_placeholder = 2131230784;
 			
 			// aapt resource value: 0x7f080041
-			public const int end_call = 2131230785;
+			public const int disable_speaker = 2131230785;
+			
+			// aapt resource value: 0x7f080064
+			public const int empty_list_view_text = 2131230820;
 			
 			// aapt resource value: 0x7f080042
-			public const int follow_ticket = 2131230786;
+			public const int end_call = 2131230786;
 			
 			// aapt resource value: 0x7f080043
-			public const int help_request_text = 2131230787;
+			public const int follow_ticket = 2131230787;
 			
 			// aapt resource value: 0x7f080044
-			public const int issue_negative_button_title = 2131230788;
+			public const int help_request_text = 2131230788;
 			
 			// aapt resource value: 0x7f080045
-			public const int issue_positive_button_title = 2131230789;
+			public const int issue_negative_button_title = 2131230789;
 			
 			// aapt resource value: 0x7f080046
-			public const int issue_resolved_message = 2131230790;
+			public const int issue_positive_button_title = 2131230790;
 			
 			// aapt resource value: 0x7f080047
-			public const int issue_resolved_title = 2131230791;
+			public const int issue_resolved_message = 2131230791;
+			
+			// aapt resource value: 0x7f080048
+			public const int issue_resolved_title = 2131230792;
 			
 			// aapt resource value: 0x7f08003a
 			public const int library_name = 2131230778;
 			
-			// aapt resource value: 0x7f080048
-			public const int manage_support_session_label = 2131230792;
-			
 			// aapt resource value: 0x7f080049
-			public const int menu_cancel = 2131230793;
-			
-			// aapt resource value: 0x7f080068
-			public const int menu_title_community_view = 2131230824;
-			
-			// aapt resource value: 0x7f08006d
-			public const int menu_title_faq_view = 2131230829;
-			
-			// aapt resource value: 0x7f080065
-			public const int menu_title_file_browsing = 2131230821;
-			
-			// aapt resource value: 0x7f080064
-			public const int menu_title_logging = 2131230820;
-			
-			// aapt resource value: 0x7f080067
-			public const int menu_title_my_ticket_view = 2131230823;
-			
-			// aapt resource value: 0x7f080066
-			public const int menu_title_sqlite_database = 2131230822;
+			public const int manage_support_session_label = 2131230793;
 			
 			// aapt resource value: 0x7f08004a
-			public const int menu_use_speaker = 2131230794;
+			public const int menu_cancel = 2131230794;
+			
+			// aapt resource value: 0x7f080069
+			public const int menu_title_community_view = 2131230825;
+			
+			// aapt resource value: 0x7f08006e
+			public const int menu_title_faq_view = 2131230830;
+			
+			// aapt resource value: 0x7f080066
+			public const int menu_title_file_browsing = 2131230822;
+			
+			// aapt resource value: 0x7f080065
+			public const int menu_title_logging = 2131230821;
+			
+			// aapt resource value: 0x7f080068
+			public const int menu_title_my_ticket_view = 2131230824;
+			
+			// aapt resource value: 0x7f080067
+			public const int menu_title_sqlite_database = 2131230823;
 			
 			// aapt resource value: 0x7f08004b
-			public const int missed_call_from_revtwo_support = 2131230795;
+			public const int menu_use_speaker = 2131230795;
 			
 			// aapt resource value: 0x7f08004c
-			public const int mute_call = 2131230796;
+			public const int missed_call_from_revtwo_support = 2131230796;
 			
 			// aapt resource value: 0x7f08004d
-			public const int new_message = 2131230797;
+			public const int mute_call = 2131230797;
 			
 			// aapt resource value: 0x7f08004e
-			public const int no_my_tickets_text = 2131230798;
+			public const int new_message = 2131230798;
 			
 			// aapt resource value: 0x7f08004f
-			public const int no_new_messages = 2131230799;
+			public const int no_my_tickets_text = 2131230799;
 			
 			// aapt resource value: 0x7f080050
-			public const int no_tickets_text = 2131230800;
+			public const int no_new_messages = 2131230800;
+			
+			// aapt resource value: 0x7f080051
+			public const int no_tickets_text = 2131230801;
 			
 			// aapt resource value: 0x7f080035
 			public const int password_toggle_content_description = 2131230773;
@@ -5976,56 +5974,59 @@ namespace XamarinSampleApp
 			// aapt resource value: 0x7f080039
 			public const int path_password_strike_through = 2131230777;
 			
-			// aapt resource value: 0x7f080051
-			public const int pubkey = 2131230801;
+			// aapt resource value: 0x7f080052
+			public const int pubkey = 2131230802;
 			
 			// aapt resource value: 0x7f080024
 			public const int search_menu_title = 2131230756;
 			
-			// aapt resource value: 0x7f080069
-			public const int sqlite = 2131230825;
+			// aapt resource value: 0x7f08006a
+			public const int sqlite = 2131230826;
 			
 			// aapt resource value: 0x7f080025
 			public const int status_bar_notification_info_overflow = 2131230757;
 			
-			// aapt resource value: 0x7f080052
-			public const int status_closed = 2131230802;
-			
 			// aapt resource value: 0x7f080053
-			public const int status_open = 2131230803;
+			public const int status_closed = 2131230803;
 			
 			// aapt resource value: 0x7f080054
-			public const int subkey = 2131230804;
+			public const int status_open = 2131230804;
 			
 			// aapt resource value: 0x7f080055
-			public const int title_close_ticket = 2131230805;
+			public const int subkey = 2131230805;
 			
 			// aapt resource value: 0x7f080056
-			public const int title_connecting = 2131230806;
-			
-			// aapt resource value: 0x7f08006a
-			public const int title_file_browsing = 2131230826;
-			
-			// aapt resource value: 0x7f08006c
-			public const int title_logging = 2131230828;
+			public const int title_close_ticket = 2131230806;
 			
 			// aapt resource value: 0x7f080057
-			public const int title_mute = 2131230807;
-			
-			// aapt resource value: 0x7f080058
-			public const int title_screen_share = 2131230808;
-			
-			// aapt resource value: 0x7f080059
-			public const int title_speaker = 2131230809;
+			public const int title_connecting = 2131230807;
 			
 			// aapt resource value: 0x7f08006b
-			public const int title_sqlite_db = 2131230827;
+			public const int title_file_browsing = 2131230827;
+			
+			// aapt resource value: 0x7f08006d
+			public const int title_logging = 2131230829;
+			
+			// aapt resource value: 0x7f080058
+			public const int title_mute = 2131230808;
+			
+			// aapt resource value: 0x7f080059
+			public const int title_screen_share = 2131230809;
 			
 			// aapt resource value: 0x7f08005a
-			public const int unfollow_ticket = 2131230810;
+			public const int title_speaker = 2131230810;
+			
+			// aapt resource value: 0x7f08006c
+			public const int title_sqlite_db = 2131230828;
+			
+			// aapt resource value: 0x7f08006f
+			public const int tutorials = 2131230831;
 			
 			// aapt resource value: 0x7f08005b
-			public const int unmute_call = 2131230811;
+			public const int unfollow_ticket = 2131230811;
+			
+			// aapt resource value: 0x7f08005c
+			public const int unmute_call = 2131230812;
 			
 			static String()
 			{

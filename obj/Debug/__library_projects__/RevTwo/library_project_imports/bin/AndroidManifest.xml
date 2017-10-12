@@ -41,6 +41,7 @@
             android:name="com.revtwo.revtwolib.AskQuestionActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity android:name="com.revtwo.revtwolib.ImagePreviewActivity" />
 
         <service
             android:name="com.revtwo.revtwolibcore.CallReceiverService"

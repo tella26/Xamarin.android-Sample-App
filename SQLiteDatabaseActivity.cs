@@ -12,18 +12,28 @@ using Android.Widget;
 
 namespace XamarinSampleApp
 {
-    [Activity(Label = "SQLiteDatabaseActivity")]
+    [Activity(Label = "RevTwo")]
     public class SQLiteDatabaseActivity : Activity
     {
+        TextView title;
+        TextView back_text;
+        LinearLayout back;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_sqlite_database);
 
             // Create your application her
-            Toolbar myToolbar = FindViewById<Toolbar>(Resource.Id.tlbActionBarX);
-            TextView title = FindViewById<TextView>(Resource.Id.lblDescriptionX);
+            title = FindViewById<TextView>(Resource.Id.lblDescriptionX);
             title.SetText(Resource.String.sqlite);
+
+            back = FindViewById<LinearLayout>(Resource.Id.back);
+            back_text = FindViewById<TextView>(Resource.Id.back_text);
+
+            back_text.SetText(Resource.String.tutorials);
+            back.Click += delegate {
+                OnBackPressed();
+            };
         }
     }
 }
