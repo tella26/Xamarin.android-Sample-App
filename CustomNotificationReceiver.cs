@@ -6,6 +6,8 @@ using Android.Graphics;
 
 namespace XamarinSampleApp
 {
+    [BroadcastReceiver(Enabled = true)]
+    [IntentFilter(new[] { "com.revtwo.action.NOTIFICATION" })]
     public class CustomNotificationReceiver : NotificationBroadcastReceiver
     {
         protected override void OnNotificationReceived(Context context, string ticketId, string message, int unreadMessages, bool inForeground)
@@ -13,8 +15,8 @@ namespace XamarinSampleApp
             NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(context)
                 .SetContentTitle("New message")
                 .SetContentText(message)
-                .SetSmallIcon(Resource.Drawable.Icon)
-                //.SetLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.mipmap.ic_launcher_revtwo))
+                .SetSmallIcon(Resource.Drawable.ic_launcher_revtwo)
+                //.SetLargeIcon(BitmapFactory.DecodeResource(context.getResources(), R.mipmap.ic_launcher_revtwo))
                 .SetColor(Color.Transparent)
                 .SetDefaults(NotificationCompat.DefaultSound)
                 .SetPriority(2);

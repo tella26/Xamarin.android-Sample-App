@@ -1,13 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 using Android.App;
 using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
 using static Android.Widget.AdapterView;
 using XamarinSampleApp;
@@ -24,7 +19,7 @@ namespace SampleApp
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.demo_list);
             RevTwoXamarin.RevTwo.RegisterActivityForScreenshare(this);
-
+            
 
             ListAdapter = new ArrayAdapter<string>(this, Resource.Layout.demo_list_item, Resource.Id.textView1,  menuItems);
             
