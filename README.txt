@@ -1,0 +1,3 @@
+- copy RevTwo.dll and RevTwoXamarin.dll to  folder "dllFiles"
+- add reference to those files in project
+- run 
