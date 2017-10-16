@@ -16,7 +16,7 @@ namespace XamarinSampleApp
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Main);
             RevTwoXamarin.RevTwo.RegisterActivityForScreenshare(this);
-            
+
             RevTwoXamarin.RevTwo.Initialize("ADD YOUR KEY HERE", "ADD YOUR PRIVATE KEY HERE", ModeEnum.R2modeDevelopment, true, this, () => {
                 var activity = new Intent(this, typeof(DemoList));
                 
