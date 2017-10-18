@@ -8,7 +8,7 @@ using Com.Revtwo.Revtwolib;
 
 namespace XamarinSampleApp
 {
-    [Activity(Label = "RevTwo", MainLauncher = true, Icon = "@drawable/ic_launcher_revtwo")]
+    [Activity(Label = "RevTwo", MainLauncher = true, Icon = "@mipmap/ic_launcher_revtwo")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)

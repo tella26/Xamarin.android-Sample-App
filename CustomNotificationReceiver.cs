@@ -15,8 +15,8 @@ namespace XamarinSampleApp
             NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(context)
                 .SetContentTitle("New message")
                 .SetContentText(message)
-                .SetSmallIcon(Resource.Drawable.ic_launcher_revtwo)
-                //.SetLargeIcon(BitmapFactory.DecodeResource(context.getResources(), R.mipmap.ic_launcher_revtwo))
+                .SetSmallIcon(Resource.Mipmap.ic_launcher_revtwo)
+                .SetLargeIcon(BitmapFactory.DecodeResource(context.Resources, Resource.Mipmap.ic_launcher_revtwo))
                 .SetColor(Color.Transparent)
                 .SetDefaults(NotificationCompat.DefaultSound)
                 .SetPriority(2);
