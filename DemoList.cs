@@ -6,6 +6,8 @@ using Android.OS;
 using Android.Widget;
 using static Android.Widget.AdapterView;
 using XamarinSampleApp;
+using Android.Graphics;
+using Com.Revtwo.Revtwolib;
 
 namespace SampleApp
 {
@@ -44,23 +46,21 @@ namespace SampleApp
                 }
                 if (args.Position == 3)
                 {
-                    var activity = new Intent(this, typeof(Com.Revtwo.Revtwolib.MyTicketActivity));
-
-                    // Provide tags that you want for ticket routing
-                    activity.PutExtra(Com.Revtwo.Revtwolib.MyTicketActivity.Tags, new string[] { "yellow", "blue" });
-                    activity.PutExtra(Com.Revtwo.Revtwolib.MyTicketActivity.TagBackButton, "Tutorials");
-
-                    StartActivity(activity);
+					MyTicketActivityLaunchOptions options = new MyTicketActivityLaunchOptions.Builder()
+						 .SetTagBackButton("Tutorials")
+						 .SetTags(new String[] { "yellow", "green" })
+						 .Build();
+                    
+					MyTicketActivity.Open(this, options);
                 }
                 if (args.Position == 4)
                 {
-                    var activity = new Intent(this, typeof(Com.Revtwo.Revtwolib.CommunityActivity));
+					CommunityTicketActivityLaunchOptions options = new CommunityTicketActivityLaunchOptions.Builder()
+						 .SetTagBackButton("Tutorials")
+						 .SetTags(new String[] { "yellow", "green" })
+						 .Build();
 
-                    // Provide tags that you want for ticket routing
-                    activity.PutExtra(Com.Revtwo.Revtwolib.CommunityActivity.Tags, new string[] { "yellow" });
-                    activity.PutExtra(Com.Revtwo.Revtwolib.CommunityActivity.TagBackButton, "Tutorials");
-
-                    StartActivity(activity);
+					CommunityActivity.Open(this, options);
                 }
                 if (args.Position == 5)
                 {
