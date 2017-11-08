@@ -1,4 +1,4 @@
-**This Sample App demonstrates many of the key features of the RevTwo In-App Support Platform.**
+# This Sample App demonstrates many of the key features of the RevTwo In-App Support Platform.
 
 
 **RevTwo Integration:**
