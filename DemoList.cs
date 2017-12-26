@@ -21,10 +21,10 @@ namespace SampleApp
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.demo_list);
             RevTwoXamarin.RevTwo.RegisterActivityForScreenshare(this);
-            
+            registerReceiver();
 
-            ListAdapter = new ArrayAdapter<string>(this, Resource.Layout.demo_list_item, Resource.Id.textView1,  menuItems);
-            
+            ListAdapter = new ArrayAdapter<string>(this, Resource.Layout.demo_list_item, Resource.Id.textView1, menuItems);
+
             ListView.TextFilterEnabled = true;
 
             ListView.ItemClick += delegate (object sender, ItemClickEventArgs args)
@@ -69,6 +69,17 @@ namespace SampleApp
                 }
             };
         }
-        
+
+        private static void registerReceiver()
+        {
+            if (Build.VERSION.SdkInt >= BuildVersionCodes.O)
+            {
+                BroadcastReceiver br = new CustomNotificationReceiver();
+
+                IntentFilter filter = new IntentFilter();
+                filter.AddAction("com.revtwo.action.NOTIFICATION");
+                Com.Revtwo.Revtwolibcore.CallReceiverService.RegisterBroadcastReceiver(br, filter);
+            }
+        }
     }
 }
