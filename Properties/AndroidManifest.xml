@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="XamarinSampleApp.XamarinSampleApp" android:versionCode="3" android:versionName="3.0" android:installLocation="auto">
-	<uses-sdk android:minSdkVersion="16" />
+	<uses-sdk android:minSdkVersion="16" android:targetSdkVersion="26" />
 	<application android:label="RevTwo" android:theme="@android:style/Theme.Material.Light" android:icon="@mipmap/ic_launcher_revtwo"></application>
 </manifest>
